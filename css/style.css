@@ -6,12 +6,14 @@
 
 body{
   font-family: "Raleway", sans-serif;
-  background-color: #b91450 ;
+  background-color: #b91450;
 }
-#calcolo-biglietto{
+/* Prima sezione */
+#calcolo-biglietto, #biglietto{
   align-items: center;
   flex-direction: column;
 }
+
 .row {
   justify-content: center;
 }
@@ -21,11 +23,43 @@ body{
 h2 {
   color: white;
 }
+.card-rounded {
+  height: 150px;
+  width: 60%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+.card-rounded label {
+color: #b91450;
+text-align: center;
+margin-bottom: 10px;
+}
+.card-rounded input {
+  padding: 5px;
+  border-radius: 4px solid #b91450;
+  text-align: center;
+}
+#fascia {
+  padding: 5px;
+  border-radius: 4px solid #b91450;
+}
+.btn-box {
+  margin-top: 50px;
+}
+#btn-genera, #btn-annulla{
+  padding: 8px;
+  margin: 5px;
+  border-radius: 3px;
+  color: #b91450;
+}
+
+/* /Prima sezione */
+
 /* Utility */
 .d-flex{
   display: flex;
 }
-
 .flex-wrap{
   flex-wrap: wrap;
 }
@@ -38,14 +72,4 @@ h2 {
 .center {
   justify-content: center;
 }
-.card-rounded {
-  height: 200px;
-  width: 60%;
-  background-color: white;
-  border-radius: 20px;
-  padding: 20px 40px;
-}
-.card-rounded label {
-color: #b91450;
-text-align: center;
-}
+/* /Utility */
