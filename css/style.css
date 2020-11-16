@@ -55,7 +55,12 @@ margin-bottom: 10px;
 }
 
 /* /Prima sezione */
-
+.card-normal {
+  height: 150px;
+  width: 60%;
+  background-color: white;
+  padding: 20px 40px;
+}
 /* Utility */
 .d-flex{
   display: flex;
