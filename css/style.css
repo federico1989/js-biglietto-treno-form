@@ -1,0 +1,51 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Raleway", sans-serif;
+  background-color: #b91450 ;
+}
+#calcolo-biglietto{
+  align-items: center;
+  flex-direction: column;
+}
+.row {
+  justify-content: center;
+}
+.col{
+  flex-direction: column;
+}
+h2 {
+  color: white;
+}
+/* Utility */
+.d-flex{
+  display: flex;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.block{
+  display: block;
+}
+.space-around{
+  justify-content: space-around;
+}
+.center {
+  justify-content: center;
+}
+.card-rounded {
+  height: 200px;
+  width: 60%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+.card-rounded label {
+color: #b91450;
+text-align: center;
+}
