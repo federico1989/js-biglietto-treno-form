@@ -39,20 +39,29 @@
 
    <section id="biglietto" class="d-flex">
      <h2>IL TUO BIGLIETTO</h2>
-     <div class="card-normal d-flex">
-       <div class="raw d-flex">
-         <div class="col d-flex">
-           <h3>DETTAGLIO PASSEGGERI</h3>
-         </div>
+     <div class="card-normal">
+       <div class="box-details raw d-flex">
+         <h3>DETTAGLIO PASSEGGERI</h3>
        </div>
-       <div class="raw d-flex">
-         <div class="col d-flex">
-           <div id="nome-passeggero" class="d-flex"></div>
-           <div id="sconto" class="d-flex"></div>
-           <div id="carrozza" class="d-flex"></div>
-           <div id="codice-cp" class="d-flex"></div>
-           <div id="ticket-price" class="d-flex"></div>
-         </div>
+       <div class="box-passengers raw d-flex space-between">
+         <table class="row d-flex space-between">
+           <thead class="col d-flex">
+             <th class="bg-grey">Nome passeggero</th>
+             <th>Sconto</th>
+             <th>Carrozza</th>
+             <th>Codice CP</th>
+             <th>Costo biglietto</th>
+           </thead>
+           <tbody class="col d-flex">
+             <tr>
+               <td id="nome-passeggero" class="bg-grey"></td>
+               <td id="sconto"></td>
+               <td id="carrozza"></td>
+               <td id="codice-cp" ></td>
+               <td id="ticket-price"></td>
+             </tr>
+           </tbody>
+         </table>
        </div>
      </div>
    </section>

@@ -13,8 +13,7 @@ body{
   align-items: center;
   flex-direction: column;
 }
-
-.row {
+#calcolo-biglietto, .row {
   justify-content: center;
 }
 .col{
@@ -53,13 +52,18 @@ margin-bottom: 10px;
   border-radius: 3px;
   color: #b91450;
 }
-
 /* /Prima sezione */
 .card-normal {
   height: 150px;
   width: 60%;
   background-color: white;
   padding: 20px 40px;
+}
+.box-details, .box-passengers {
+  border-bottom: 0.5px solid grey;
+}
+.box-passengers {
+  width: 100%;
 }
 /* Utility */
 .d-flex{
@@ -74,7 +78,16 @@ margin-bottom: 10px;
 .space-around{
   justify-content: space-around;
 }
+.space-between {
+  justify-content: space-between;
+}
 .center {
   justify-content: center;
+}
+.column {
+  flex-direction: column;
+}
+.bg-grey {
+  background-color: grey;
 }
 /* /Utility */
